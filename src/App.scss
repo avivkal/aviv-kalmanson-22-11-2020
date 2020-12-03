@@ -1,0 +1,14 @@
+@import './Constants/colors.scss';
+
+.App {
+  text-align: center;
+}
+
+.spinner{
+  padding-top: 50px;
+}
+
+.app-background{
+  background-color: $background;
+}
+

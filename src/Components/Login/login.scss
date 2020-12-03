@@ -1,0 +1,11 @@
+@import '../../Constants/colors.scss';
+
+.form{
+    padding-top: 30px;
+}
+.register-link{
+    color: $register-link;
+    &:hover{
+        cursor: pointer;
+    }
+}

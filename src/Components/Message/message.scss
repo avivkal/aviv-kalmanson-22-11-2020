@@ -1,0 +1,19 @@
+.message-container{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.text-style{
+    font-size: 18px;
+}
+
+.button-style{
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+}
+
+.details-style{
+    margin-top: 10px;
+}
