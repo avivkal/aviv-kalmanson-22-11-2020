@@ -9,7 +9,7 @@ class NavigationBar extends Component {
     render() {
         return (
 
-            <Navbar collapseOnSelect expand="lg" bg={this.props.darkMode ? "light" : "dark"} variant={this.props.darkMode ? "light" : "dark"} >
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
                 <Navbar.Brand as={Link} to={HOME_PATH}>Herolo Messaging Task</Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
